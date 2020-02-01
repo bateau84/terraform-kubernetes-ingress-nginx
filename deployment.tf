@@ -60,7 +60,7 @@ resource "kubernetes_deployment" "nginx-ingress-controller" {
               ]
 
             }
-            run_as_user = 33
+            run_as_user = 101
           }
 
           env {
